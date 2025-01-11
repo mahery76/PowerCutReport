@@ -1,0 +1,7 @@
+- get the battery status data for once
+- read the json file and get the data from it and assign it to battery_status_data_list and to it the current battery data 
+- write the file once at the start of the program
+- every 10 second: 
+. get the current battery data
+. if the current status of the battery is not the same as his last status then dump the json file
+. 
